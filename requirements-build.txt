@@ -1,0 +1,4 @@
+# Only needed to rebuild the index from the PDFs (scripts/build_index.py).
+-r requirements.txt
+pymupdf4llm>=0.0.17,<1.0
+langchain-text-splitters>=0.3,<2.0
